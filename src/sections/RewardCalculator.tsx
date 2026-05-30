@@ -12,7 +12,7 @@ const vendorAccent: Record<GpuVendor, string> = {
 export function RewardCalculator() {
   const { t } = useLang();
   const [gpus, setGpus] = useState<GpuRewardEntry[]>([]);
-  const [selectedId, setSelectedId] = useState<string>("rtx4090");
+  const [selectedId, setSelectedId] = useState<string>("rtx5090");
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
 
