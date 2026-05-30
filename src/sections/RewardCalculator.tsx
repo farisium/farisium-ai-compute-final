@@ -111,9 +111,9 @@ export function RewardCalculator() {
             </div>
 
             <div className="mt-6 grid grid-cols-2 gap-3 text-xs">
-              <Stat label="Source" value="Cached JSON" />
+              <Stat label="Source" value="Global Value" />
               <Stat label="Sync Layer" value="Prepared" />
-              <Stat label="Setup Fee" value="$0" />
+              <Stat label="Setup Fee" value="FREE" />
               <Stat label="Verification" value="Manual" />
             </div>
           </div>
