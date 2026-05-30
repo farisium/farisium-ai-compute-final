@@ -1,0 +1,15 @@
+{
+  "name": "Farisium AI Compute",
+  "short_name": "Farisium",
+  "icons": [
+    {
+      "src": "/assets/F.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#071015",
+  "background_color": "#071015",
+  "display": "standalone"
+}
