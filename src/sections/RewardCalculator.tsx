@@ -16,9 +16,17 @@ export function RewardCalculator() {
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
 
-  useEffect(() => {
-    fetchGpuRewards().then(setGpus);
-  }, []);
+useEffect(() => {
+  fetchGpuRewards().then((data) => {
+    setGpus(data);
+
+    const gpu5090 = data.find((g) => g.id === "rtx5090");
+
+    if (gpu5090) {
+      setSelectedId("rtx5090");
+    }
+  });
+}, []);
 
   const selected = useMemo(() => gpus.find((g) => g.id === selectedId), [gpus, selectedId]);
   const filtered = useMemo(() => {
