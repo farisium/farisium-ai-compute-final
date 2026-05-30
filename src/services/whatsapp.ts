@@ -1,6 +1,6 @@
 // Configure the WhatsApp number that receives applications.
 // Use international format without "+" or leading zeros.
-export const WHATSAPP_NUMBER = "6281234567890";
+export const WHATSAPP_NUMBER = "628130358145";
 
 export interface RegistrationPayload {
   name: string;
