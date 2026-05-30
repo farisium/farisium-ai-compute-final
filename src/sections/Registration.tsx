@@ -13,7 +13,7 @@ const initial: RegistrationPayload = {
   gpuCount: "1",
   cpu: "",
   ram: "",
-  hours: "12",
+  hours: "24",
   payment: "USDT",
   notes: "",
 };
@@ -85,7 +85,7 @@ export function Registration() {
               <input
                 className={inputCls}
                 required
-                placeholder="+62..."
+                placeholder="08..."
                 value={form.whatsapp}
                 onChange={update("whatsapp")}
                 autoComplete="tel"
