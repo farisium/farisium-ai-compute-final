@@ -14,7 +14,7 @@ export const T: Dict = {
 
   "hero.tag": { id: "GPU Compute Partnership Program", en: "GPU Compute Partnership Program" },
   "hero.title": {
-    id: "Jalankan GPU Anda di Jaringan AI Compute Premium",
+    id: "Passive Income dari GPU di Jaringan AI Compute",
     en: "Run Your GPU in a Premium AI Compute Network",
   },
   "hero.sub": {
