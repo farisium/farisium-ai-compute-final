@@ -144,7 +144,7 @@ useEffect(() => {
                 </div>
                 <div className="mt-1 flex items-end gap-2 leading-none">
                   <span className="text-6xl sm:text-7xl font-bold gradient-text text-glow">
-                    ${selected?.weeklyRewardUsd ?? 0}
+                    ${(selected?.weeklyRewardUsd ?? 0).toFixed(1)}
                   </span>
                   <span className="text-muted-foreground pb-2">{t("rw.week")}</span>
                 </div>
