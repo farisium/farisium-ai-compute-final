@@ -171,7 +171,9 @@ useEffect(() => {
               <div className="mt-6 h-2 rounded-full bg-white/5 overflow-hidden">
                 <div
                   className="h-full bg-gradient-to-r from-cyan-glow to-electric transition-all duration-700"
-                  style={{ width: `${Math.min(100, ((selected?.weeklyRewardUsd ?? 0).toFixed(1)} / 60) * 100)}%` }}
+                  style={{
+  width: `${Math.min(100, selected?.weeklyRewardUsd ?? 0)}%`,
+}}
                 />
               </div>
               <p className="mt-3 text-[11px] text-muted-foreground">
